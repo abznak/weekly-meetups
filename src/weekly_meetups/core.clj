@@ -38,7 +38,8 @@
               "Brisbane-Big-Data-Analytics"
               "Brisbane-Coder-Club"
               "Queensland-based-MonoTouch-and-Mono-for-Android"
-              "Women-Who-Code-Brisbane"]
+              "Women-Who-Code-Brisbane"
+              "Brisbane-Internet-Safety-Meetup"]
    :sydney []
    :melbourne []
    :perth []})
