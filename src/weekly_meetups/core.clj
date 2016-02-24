@@ -39,7 +39,9 @@
               "Brisbane-Coder-Club"
               "Queensland-based-MonoTouch-and-Mono-for-Android"
               "Women-Who-Code-Brisbane"
-              "Brisbane-Internet-Safety-Meetup"]
+              "Brisbane-Internet-Safety-Meetup"
+              "Hacks-Hackers-Brisbane"
+              "BitcoinBrisbane"]
    :sydney []
    :melbourne []
    :perth []})
