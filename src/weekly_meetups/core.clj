@@ -41,7 +41,8 @@
               "Women-Who-Code-Brisbane"
               "Brisbane-Internet-Safety-Meetup"
               "Hacks-Hackers-Brisbane"
-              "BitcoinBrisbane"]
+              "BitcoinBrisbane"
+              "Ethereum-Brisbane"]
    :sydney []
    :melbourne []
    :perth []})
