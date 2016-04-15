@@ -42,6 +42,7 @@
               "Brisbane-Internet-Safety-Meetup"
               "Hacks-Hackers-Brisbane"
               "BitcoinBrisbane"
+              "Cryptohack-Melbourne"
               "Ethereum-Brisbane"]
    :sydney []
    :melbourne []
