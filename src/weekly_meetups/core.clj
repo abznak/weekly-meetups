@@ -43,6 +43,7 @@
               "Hacks-Hackers-Brisbane"
               "BitcoinBrisbane"
               "Cryptohack-Melbourne"
+              "SecTalks-Brisbane"
               "Ethereum-Brisbane"]
    :sydney []
    :melbourne []
