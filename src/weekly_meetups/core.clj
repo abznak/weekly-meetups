@@ -44,6 +44,7 @@
               "BitcoinBrisbane"
               "Cryptohack-Melbourne"
               "SecTalks-Brisbane"
+              "NextBankBrisbane"
               "Ethereum-Brisbane"]
    :sydney []
    :melbourne []
