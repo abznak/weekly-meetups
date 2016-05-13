@@ -45,6 +45,7 @@
               "Cryptohack-Melbourne"
               "SecTalks-Brisbane"
               "NextBankBrisbane"
+              "WIDAUS"
               "Brisbane-Project-Management"
               "Ethereum-Brisbane"]
    :sydney []
