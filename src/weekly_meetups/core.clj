@@ -47,7 +47,8 @@
               "NextBankBrisbane"
               "WIDAUS"
               "Brisbane-Project-Management"
-              "Ethereum-Brisbane"]
+              "Ethereum-Brisbane"
+              "Brisbane-Golang-Meetup"]
    :sydney []
    :melbourne []
    :perth []})
