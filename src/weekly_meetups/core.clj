@@ -48,7 +48,8 @@
               "WIDAUS"
               "Brisbane-Project-Management"
               "Brisbane-Golang-Meetup"
-              "Ethereum-Brisbane"]
+              "Ethereum-Brisbane"
+              "RHoK-Brisbane"]
    :sydney []
    :melbourne []
    :perth []})
