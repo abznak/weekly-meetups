@@ -49,7 +49,8 @@
               "Brisbane-Project-Management"
               "Brisbane-Golang-Meetup"
               "Ethereum-Brisbane"
-              "RHoK-Brisbane"]
+              "RHoK-Brisbane"
+              "Rust-Brisbane"]
    :sydney []
    :melbourne []
    :perth []})
