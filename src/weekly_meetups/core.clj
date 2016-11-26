@@ -50,7 +50,8 @@
               "Brisbane-Golang-Meetup"
               "Ethereum-Brisbane"
               "RHoK-Brisbane"
-              "Rust-Brisbane"]
+              "Rust-Brisbane"
+              "CTO-School-Brisbane"]
    :sydney []
    :melbourne []
    :perth []})
