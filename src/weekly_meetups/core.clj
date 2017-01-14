@@ -51,6 +51,7 @@
               "Ethereum-Brisbane"
               "RHoK-Brisbane"
               "Rust-Brisbane"
+              "Brisbane-Kotlin-User-Group"
               "CTO-School-Brisbane"]
    :sydney []
    :melbourne []
