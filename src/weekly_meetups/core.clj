@@ -52,6 +52,7 @@
               "RHoK-Brisbane"
               "Rust-Brisbane"
               "Brisbane-Kotlin-User-Group"
+              "Brisbane-OpenShift-Group"
               "CTO-School-Brisbane"]
    :sydney []
    :melbourne []
