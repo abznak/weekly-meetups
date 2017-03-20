@@ -53,6 +53,7 @@
               "Rust-Brisbane"
               "Brisbane-Kotlin-User-Group"
               "Brisbane-OpenShift-Group"
+              "Brisbane-ReactJS-Meetup"
               "CTO-School-Brisbane"]
    :sydney []
    :melbourne []
