@@ -54,6 +54,7 @@
               "Brisbane-Kotlin-User-Group"
               "Brisbane-OpenShift-Group"
               "Brisbane-ReactJS-Meetup"
+              "Brisbane-Software-Developers-Startup-Community"
               "CTO-School-Brisbane"]
    :sydney []
    :melbourne []
