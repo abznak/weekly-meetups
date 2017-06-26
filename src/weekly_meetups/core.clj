@@ -55,6 +55,7 @@
               "Brisbane-OpenShift-Group"
               "Brisbane-ReactJS-Meetup"
               "Brisbane-Software-Developers-Startup-Community"
+              "Brisbane-Tech-Newbies"
               "CTO-School-Brisbane"]
    :sydney []
    :melbourne []
