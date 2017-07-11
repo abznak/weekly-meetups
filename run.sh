@@ -1,1 +1,1 @@
-lein run 37407cf58623b4a343f661f65e206
+lein run $MEETUP_API_KEY $*
