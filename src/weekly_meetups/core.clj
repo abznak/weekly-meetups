@@ -84,7 +84,7 @@
 
 (defn- format-time [time]
    (unparse
-    (with-zone (formatter "EEEE dd/MM") (default-time-zone))
+    (with-zone (formatter "yyyy-MM-dd EEEE") (default-time-zone))
     (from-long time)))
 
 (defn- format-event [event]
