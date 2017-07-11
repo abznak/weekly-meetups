@@ -56,6 +56,7 @@
               "Brisbane-Software-Developers-Startup-Community"
               "Brisbane-Tech-Newbies"
               "CTO-School-Brisbane"]
+   :tst [     "BrisJS"]
    :sydney []
    :melbourne []
    :perth []})
