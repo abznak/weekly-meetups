@@ -91,7 +91,8 @@
   {:name (:name event)
    :group_name (:name (:group event))
    :time (format-time (:time event))
-   :url (:event_url event)})
+   :url (:event_url event)
+   :venue_name (:name (:venue event))})
 
 (defn events-to-html [events]
   (render-resource events-template {:events events}))
