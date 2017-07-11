@@ -42,7 +42,6 @@
               "Brisbane-Internet-Safety-Meetup"
               "Hacks-Hackers-Brisbane"
               "BitcoinBrisbane"
-              "Cryptohack-Melbourne"
               "SecTalks-Brisbane"
               "NextBankBrisbane"
               "WIDAUS"
