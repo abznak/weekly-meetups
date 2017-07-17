@@ -1,6 +1,8 @@
 {{#events}}   
-<div>
-   <b>{{time}}</b></br>
-   {{group_name}} - <a href='{{url}}'>{{name}}</a> - {{ venue_name}}
-</div>
+<h1>{{time}}</h1>
+	{{#values}}
+		<div>
+   		{{group_name}} - <a href='{{url}}'>{{name}}</a> - {{ venue_name}}
+		</div>
+	{{/values}}
 {{/events}}

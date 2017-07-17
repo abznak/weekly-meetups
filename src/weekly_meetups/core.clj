@@ -94,8 +94,13 @@
    :url (:event_url event)
    :venue_name (:name (:venue event))})
 
+(defn- group-events [events]
+	(def g (for [[k v] (group-by #(get % :time) events)] {:time k :values v}))
+	g)
+	
+
 (defn events-to-html [events]
-  (render-resource events-template {:events events}))
+  (render-resource events-template {:events (group-events events)}))
 
 (defn get-events [api-key city]
   (->>(get-all-meetups api-key city)
