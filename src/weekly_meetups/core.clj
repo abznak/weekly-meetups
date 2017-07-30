@@ -73,6 +73,7 @@
 
 ;;hacky code that does stuff
 (defn- get-meetup-events [api-key meetup]
+  (Thread/sleep 100)
   (-> (format meetup-url api-key meetup number-of-days)
       slurp
       (json/read-str :key-fn keyword)
