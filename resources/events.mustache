@@ -1,8 +1,13 @@
+<h1>Meetups for the week</h1>
 {{#events}}   
-<h1>{{time}}</h1>
+<h2>{{time}}</h2>
+	<ul>
 	{{#values}}
-		<div>
-   		{{group_name}} - <a href='{{url}}'>{{name}}</a> - {{ venue_name}}
-		</div>
+		<li>
+   		{{group_name}} - <a href='{{url}}'>{{name}}</a> - {{venue_name}}
+		</li>
 	{{/values}}
+	</ul>
 {{/events}}
+
+Feel free to get in touch if I've missed any meetups or you have any suggestions for improvements.
