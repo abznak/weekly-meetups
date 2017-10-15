@@ -8,6 +8,7 @@
                  [clj-time "0.6.0"]
                  [de.ubercode.clostache/clostache "1.3.1"]
                  [ring "1.1.8"]
+                 [listora/again "0.1.0"]
                  [ring/ring-jetty-adapter "1.1.6"]
                  [compojure "1.1.5"]]
   :main weekly-meetups.core

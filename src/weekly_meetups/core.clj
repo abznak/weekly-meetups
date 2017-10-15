@@ -1,5 +1,6 @@
 (ns weekly-meetups.core
   (:require [clojure.data.json :as json])
+  (require [again.core :as again])
   (:use [clj-time.core]
         [clj-time.coerce]
         [clj-time.format]
@@ -73,11 +74,14 @@
 
 ;;hacky code that does stuff
 (defn- get-meetup-events [api-key meetup]
-  (Thread/sleep 100)
-  (-> (format meetup-url api-key meetup number-of-days)
-      slurp
-      (json/read-str :key-fn keyword)
-      :results))
+  (println "get " meetup)
+  (Thread/sleep 5000)
+  (again/with-retries
+    [100 1000 10000]
+		(-> (format meetup-url api-key meetup number-of-days)
+				slurp
+				(json/read-str :key-fn keyword)
+				:results)))
 
 (defn- get-all-meetups [api-key city]
   (->> (map #(get-meetup-events api-key %) (city meetups))
