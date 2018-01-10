@@ -56,7 +56,8 @@
               "Brisbane-ReactJS-Meetup"
               "Brisbane-Software-Developers-Startup-Community"
               "Brisbane-Tech-Newbies"
-              "CTO-School-Brisbane"]
+              "CTO-School-Brisbane"
+              "Brisbane-Data-Science-Meetup"]
    :tst [     "BrisJS"]
    :sydney []
    :melbourne [
