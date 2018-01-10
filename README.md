@@ -2,6 +2,8 @@
 
 A Clojure application to get information about upcoming meetups that you care about. It will output a html string to do with what you will.
 
+The instructions below assume you have Leiningen installed - https://leiningen.org/
+
 ## Usage
 
 `lein run YOUR_MEETUP_API_KEY`
