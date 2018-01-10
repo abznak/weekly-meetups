@@ -38,6 +38,7 @@
               "Brisbane-GPU-Users"
               "Brisbane-Big-Data-Analytics"
               "Brisbane-Coder-Club"
+              "Brisbane-New-Technology-Meetup"
               "Queensland-based-MonoTouch-and-Mono-for-Android"
               "Women-Who-Code-Brisbane"
               "Brisbane-Internet-Safety-Meetup"
