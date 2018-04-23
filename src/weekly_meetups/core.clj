@@ -59,7 +59,10 @@
               "Brisbane-Tech-Newbies"
               "CTO-School-Brisbane"
               "Brisbane-Data-Science-Meetup"]
-   :tst [     "BrisJS"]
+   :tst [     "BrisJS"
+              "UXBrisbane"
+              "Brisbane-Coder-Club"
+         ]
    :sydney []
    :melbourne [
 "Female-Coders-Lab-Melbourne"
@@ -159,7 +162,7 @@
 	
 
 (defn events-to-html [events]
-  (render-resource events-template {:events (group-events events)}))
+  (render-resource events-template {:events (sort-by :time (group-events events))}))
 
 (defn get-events [api-key city]
   (->>(get-all-meetups api-key city)
