@@ -1,3 +1,9 @@
+
+
+
+
+
+
 (ns weekly-meetups.core
   (:require [clojure.data.json :as json])
   (require [again.core :as again])
@@ -9,7 +15,7 @@
   (:gen-class))
 
 ;;configuration
-(def number-of-days 9)
+(def number-of-days 35)
 
 (def meetups
   {:brisbane ["clj-bne"
@@ -58,6 +64,7 @@
               "Brisbane-Software-Developers-Startup-Community"
               "Brisbane-Tech-Newbies"
               "CTO-School-Brisbane"
+              "PurposefulCX"
               "Brisbane-Data-Science-Meetup"]
    :tst [     "BrisJS"
               "UXBrisbane"
