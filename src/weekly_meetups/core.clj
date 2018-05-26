@@ -21,6 +21,7 @@
   {:brisbane ["clj-bne"
               "qldjvm"
               "AWS-Brisbane"
+              "Angular-Brisbane"
               "BNoSQL"
               "brisbane-elixir"
               "Brisbane-Net-User-Group"
