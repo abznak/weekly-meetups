@@ -23,6 +23,7 @@
               "AWS-Brisbane"
               "Angular-Brisbane"
               "BNoSQL"
+              "Brisbane-Artificial-Intelligence"
               "brisbane-elixir"
               "Brisbane-Net-User-Group"
               "Brisbane-Functional-Programming-Group"
@@ -70,6 +71,7 @@
    :tst [     "BrisJS"
               "UXBrisbane"
               "Brisbane-Coder-Club"
+              "Brisbane-Artificial-Intelligence"
          ]
    :sydney []
    :melbourne [
