@@ -56,6 +56,7 @@
               "Lean-Business-Strategies"
               "NextBankBrisbane"
               "PurposefulCX"
+              "ProductTank-Brisbane"
               "Queensland-based-MonoTouch-and-Mono-for-Android"
               "RHoK-Brisbane"
               "Rust-Brisbane"
