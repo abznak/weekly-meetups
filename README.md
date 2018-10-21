@@ -11,6 +11,7 @@ The instructions below assume you have Leiningen installed - https://leiningen.o
 or
 
 `lein run YOUR_MEETUP_API_KEY CITY`
+(lein run 16333e7ab146125b4c5e14383c7b5 melbourne)
 
 or
 

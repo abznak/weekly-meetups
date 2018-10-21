@@ -69,7 +69,7 @@
     "PurposefulCX"
     "Brisbane-Data-Science-Meetup"
   ]
-   :tst [     
+   :tst [
     "BrisJS"
     "UXBrisbane"
     "Brisbane-Coder-Club"
@@ -129,6 +129,8 @@
     "Melbourne-Functional-User-Group-MFUG"
     "ThoughtWorks-Melbourne"
     "Computer-Graphics-on-the-Web"
+    "Melbourne-Blender-Society"
+    "Machine-Learning-AI-Meetup"
   ]
    :perth []
 })
@@ -173,7 +175,7 @@
 (defn- group-events [events]
 	(def g (for [[k v] (group-by #(get % :time) events)] {:time k :values v}))
 	g)
-	
+
 
 (defn events-to-html [events]
   (render-resource events-template {:events (sort-by :time (group-events events))}))
