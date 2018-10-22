@@ -1,13 +1,24 @@
-<h1>Meetups for the week</h1>
-{{#events}}   
-<h2>{{time}}</h2>
-	<ul>
-	{{#values}}
-		<li>
-   		{{group_name}} - <a href='{{url}}'>{{name}}</a> - {{venue_name}}
-		</li>
-	{{/values}}
-	</ul>
-{{/events}}
+<head>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 9pt;
+		}
 
-Feel free to get in touch if I've missed any meetups or you have any suggestions for improvements.
+		p {
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	{{#events}}
+	<p>{{time}}</p>
+		<ul>
+		{{#values}}
+			<li>
+			{{group_name}} - <a href='{{url}}'>{{name}}</a> - {{venue_name}}
+			</li>
+		{{/values}}
+		</ul>
+	{{/events}}
+</body>

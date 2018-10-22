@@ -1,9 +1,3 @@
-
-
-
-
-
-
 (ns weekly-meetups.core
   (:require [clojure.data.json :as json])
   (require [again.core :as again])
@@ -15,7 +9,7 @@
   (:gen-class))
 
 ;;configuration
-(def number-of-days 35)
+(def number-of-days 7)
 
 (def meetups
   {:brisbane [
