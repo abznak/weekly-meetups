@@ -17,7 +17,7 @@
      description: Run the script to fetch the meetups.
      run:
        container: build-env
-       command: lein run 533e5d1f5f42227235517d7d7854a5 melbourne 
+       command: lein run <MEETUP API KEY> <CITY> 
    shell:
      description: Start a shell in the development environment.
      run:

@@ -7,7 +7,7 @@ A Clojure application to get information about upcoming meetups that you care ab
 - Create an account on [Meetup.com](https://meetup.com), login, and get your [API key](https://secure.meetup.com/meetup_api/key/)
 
 ## Usage
-1. Open **batect.yml**, replace the Meetup API key used in the run task with your own key, and set your desired city
+1. Open **batect.yml**, replace the Meetup API key used in the run task with your own key, and set your desired city (e.g. lein run 1387343471091 melbourne)
 2. Run `./batect run` in your terminal
 3. Open **output.html** to view the results
 
