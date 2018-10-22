@@ -13,21 +13,11 @@
       enabled: true
       home_directory: /home/container-user
  tasks:
-   install:
-     description: Fetch and install leiningen.
-     run:
-       container: build-env
-       command: lein version
    run:
      description: Run the script to fetch the meetups.
      run:
        container: build-env
        command: lein run 533e5d1f5f42227235517d7d7854a5 melbourne 
-   open:
-     description: Open the output.html to view results.
-     run:
-       container: build-env
-       command: open output.html
    shell:
      description: Start a shell in the development environment.
      run:
