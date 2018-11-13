@@ -9,7 +9,7 @@
   (:gen-class))
 
 ;;configuration
-(def number-of-days 7)
+(def number-of-days 8)
 
 (def meetups
   {:brisbane [
@@ -125,6 +125,7 @@
     "Computer-Graphics-on-the-Web"
     "Melbourne-Blender-Society"
     "Machine-Learning-AI-Meetup"
+    "Data-Engineering-Melbourne"
   ]
    :perth []
 })
