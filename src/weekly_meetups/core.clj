@@ -126,7 +126,8 @@
     "Melbourne-Blender-Society"
     "Machine-Learning-AI-Meetup"
     "Data-Engineering-Melbourne"
-  ]
+    "melbnlp"
+   ]
    :perth []
 })
 
