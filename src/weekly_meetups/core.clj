@@ -127,6 +127,7 @@
     "Machine-Learning-AI-Meetup"
     "Data-Engineering-Melbourne"
     "melbnlp"
+    "Melbourne-Women-in-Machine-Learning-and-Data-Science"
    ]
    :perth []
 })
