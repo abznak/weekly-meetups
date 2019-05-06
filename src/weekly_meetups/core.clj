@@ -128,6 +128,11 @@
     "Data-Engineering-Melbourne"
     "melbnlp"
     "Melbourne-Women-in-Machine-Learning-and-Data-Science"
+    "Melbourne-DevSecOps-User-Group"
+    "Melbourne-Kubernetes-Meetup"
+    "GDG-Cloud-Melbourne"
+    "Melbourne-Creative-AI-Meetup"
+    "melbourne-search"
    ]
    :perth []
 })
