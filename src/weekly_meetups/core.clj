@@ -9,7 +9,7 @@
   (:gen-class))
 
 ;;configuration
-(def number-of-days 8)
+(def number-of-days 30)
 
 (def meetups
   {:brisbane [
@@ -133,6 +133,16 @@
     "GDG-Cloud-Melbourne"
     "Melbourne-Creative-AI-Meetup"
     "melbourne-search"
+    "codelikeagirlau"
+    "Women-Who-Code-Melbourne"
+    "Disruptors-In-Tech-Melb"
+    "DDD-Melbourne-By-Night"
+    "Elm-Melbourne"
+    "Melbourne-ML-AI-Bookclub"
+    "Melbourne-Kotlin-Meetup"
+    "Junior-Developers-Melbourne"
+    "Melbourne-Docker-User-Group"
+    "the-web"
    ]
    :perth []
 })
