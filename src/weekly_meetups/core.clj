@@ -137,7 +137,7 @@
 
 ;;should need to change this
 (def meetup-url
-  "http://api.meetup.com/2/events?sign=true&key=%s&group_urlname=%s&time=01012014,%dd")
+  "http://api.meetup.com/2/events?&group_urlname=%s&time=01012014,%dd")
 
 (def events-template
   "events.mustache")
@@ -151,7 +151,7 @@
   (Thread/sleep 5000)
   (again/with-retries
     [100 1000 10000]
-		(-> (format meetup-url api-key meetup number-of-days)
+		(-> (format meetup-url meetup number-of-days)
 				slurp
 				(json/read-str :key-fn keyword)
 				:results)))
