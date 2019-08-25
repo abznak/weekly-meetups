@@ -59,6 +59,7 @@
               "NextBankBrisbane"
               "PurposefulCX"
               "ProductTank-Brisbane"
+              "QLD-SQL-Server-User-Group"
               "Queensland-based-MonoTouch-and-Mono-for-Android"
               "RHoK-Brisbane"
               "Rust-Brisbane"
