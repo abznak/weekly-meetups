@@ -12,63 +12,10 @@
 (def number-of-days 30)
 
 (def meetups
-  {:brisbane [
-    "clj-bne"
-    "qldjvm"
-    "AWS-Brisbane"
-    "Angular-Brisbane"
-    "BNoSQL"
-    "brisbane-elixir"
-    "Brisbane-Net-User-Group"
-    "Brisbane-Functional-Programming-Group"
-    "Brisbane-Hacks-for-Humanity"
-    "Brisbane-Software-Testers-Meetup"
-    "Brisbane-Web-Accessibility"
-    "BrisRuby"
-    "BrisJS"
-    "Business-Analysts-Architects-Product-Owners-Brisbane"
-    "Brisbane-Open-Knowledge-Meetup"
-    "cocoaheads"
-    "Agile-Brisbane"
-    "hackbne"
-    "Lean-Business-Strategies"
-    "Brisbane-Python-User-Group"
-    "Brisbane-Azure-User-Group"
-    "The-Brisbane-Web-Design-Meetup-Group"
-    "UXBrisbane"
-    "Devops-Brisbane"
-    "Brisbane-GPU-Users"
-    "Brisbane-Big-Data-Analytics"
-    "Brisbane-Coder-Club"
-    "Brisbane-New-Technology-Meetup"
-    "Queensland-based-MonoTouch-and-Mono-for-Android"
-    "Women-Who-Code-Brisbane"
-    "Brisbane-Internet-Safety-Meetup"
-    "Hacks-Hackers-Brisbane"
-    "BitcoinBrisbane"
-    "SecTalks-Brisbane"
-    "NextBankBrisbane"
-    "WIDAUS"
-    "Brisbane-Project-Management"
-    "Brisbane-Golang-Meetup"
-    "Ethereum-Brisbane"
-    "RHoK-Brisbane"
-    "Rust-Brisbane"
-    "Brisbane-Kotlin-User-Group"
-    "Brisbane-OpenShift-Group"
-    "Brisbane-ReactJS-Meetup"
-    "Brisbane-Software-Developers-Startup-Community"
-    "Brisbane-Tech-Newbies"
-    "CTO-School-Brisbane"
-    "PurposefulCX"
-    "Brisbane-Data-Science-Meetup"
-  ]
-   :tst [
-    "BrisJS"
-    "UXBrisbane"
-    "Brisbane-Coder-Club"
-  ]
+  {:brisbane []
+   :tst []
    :sydney []
+   :perth []
    :melbourne [
     "Female-Coders-Lab-Melbourne"
     "Melbourne-Scala-User-Group"
@@ -144,12 +91,11 @@
     "Melbourne-Docker-User-Group"
     "the-web"
    ]
-   :perth []
 })
 
 ;;should need to change this
 (def meetup-url
-  "http://api.meetup.com/2/events?sign=true&key=%s&group_urlname=%s&time=01012014,%dd")
+  "http://api.meetup.com/2/events?sign=true&key=%s&group_urlname=%s")
 
 (def events-template
   "events.mustache")
@@ -199,7 +145,7 @@
 
 (defn -main
   ([api-key]
-     (-main api-key "brisbane" output-file))
+     (-main api-key "melbourne" output-file))
   ([api-key city]
      (-main api-key city output-file))
   ([api-key city output-file-name]

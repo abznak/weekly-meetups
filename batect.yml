@@ -1,28 +1,28 @@
- containers:
-   build-env:
-     image: clojure:lein-2.8.1-alpine
-     volumes:
-       - local: .
-         container: /code
-         options: cached
-       - local: .
-         container: /home/container-user/.m2
-         options: cached
-     working_directory: /code
-     run_as_current_user:
+containers:
+  build-env:
+    image: clojure:lein-2.8.1-alpine
+    volumes:
+      - local: .
+        container: /code
+        options: cached
+      - local: .
+        container: /home/container-user/.m2
+        options: cached
+    working_directory: /code
+    run_as_current_user:
       enabled: true
       home_directory: /home/container-user
- tasks:
-   run:
-     description: Run the script to fetch the meetups.
-     run:
-       container: build-env
-       command: bash -c "lein run $API_KEY $CITY"
-       environment:
-         API_KEY: $MEETUP_API_KEY
-         CITY: $MEETUP_CITY
-   shell:
-     description: Start a shell in the development environment.
-     run:
-       container: build-env
-       command: bash
+tasks:
+  run:
+    description: Run the script to fetch the meetups.
+    run:
+      container: build-env
+      command: bash -c "lein run $API_KEY $CITY"
+      environment:
+        API_KEY: $MEETUP_API_KEY
+        CITY: ${MEETUP_CITY:-melbourne}
+  shell:
+    description: Start a shell in the development environment.
+    run:
+      container: build-env
+      command: bash
